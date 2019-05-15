@@ -8,6 +8,7 @@
 # Site settings
 title: Ride
 title_short: Ride
+copyright: Natalie Johnson
 description: >
   Self driving car service
 baseurl: ""

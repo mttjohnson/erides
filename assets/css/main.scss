@@ -1,0 +1,82 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "variables";
+@import "bootstrap";
+
+// Global
+body {
+    padding-top: 0px;
+}
+
+// Home
+.valign {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+h2 > a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+.btn .fa {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.container.feature {
+    margin-bottom: 10px;
+}
+.feature-quote {
+    margin-top: 0px;
+
+    blockquote {
+        border: 0;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+        footer {
+            background: none;
+            font-size: 12px;
+            &:after {
+                content: '';
+            }
+            &:before {
+                content: '';
+            }
+        }
+    }
+}
+
+
+
+// Footer
+body > footer {
+    margin-top: 80px;
+    background: $mca-light-grey;
+    color: #9d9d9d;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: $mca-light-grey;
+    a {
+        color: #9d9d9d;
+        &:link {
+            color: #9d9d9d;
+        }
+        &:visited {
+            color: #9d9d9d;
+        }
+        &:hover {
+            color: #ffffff;
+        }
+        &:active {
+            color: #9d9d9d;
+        }
+
+    }
+}
+body > footer .row {
+    margin-top: 40px;
+}

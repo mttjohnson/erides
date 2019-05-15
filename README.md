@@ -1,1 +1,3 @@
-# erides
+# Ride
+
+Art design concepts demonstrated
